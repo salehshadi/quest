@@ -429,6 +429,8 @@ public class FeatureExtractorSimple{
             src_abbr = "nl";
         else if (targetLang.equalsIgnoreCase("portuguese"))
             src_abbr = "pt";
+        else if (targetLang.equalsIgnoreCase("czech"))
+            tgt_abbr = "cs";
         else
             System.out.println("Don't recognise the source language");
         
@@ -446,6 +448,8 @@ public class FeatureExtractorSimple{
             tgt_abbr = "nl";
         else if (targetLang.equalsIgnoreCase("portuguese"))
             tgt_abbr = "pt";
+        else if (targetLang.equalsIgnoreCase("czech"))
+            tgt_abbr = "cs";
         else
             System.out.println("Don't recognise the target language");
         
